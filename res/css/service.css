@@ -1,0 +1,135 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* img{
+    height: 300px; 
+    width: 400px;
+} */
+.servisesmain{
+    margin: 50px;
+    padding: 25px;
+    /* box-shadow: 15px 15px 50px #000000; */
+}
+.servisesmain h1{
+    color: black;
+    font-size: 35px;
+}
+.servisesmain p{
+    color: #043e2e;
+    font-size: 25px;
+}
+
+
+.service1{
+    background-color: #568a6e2a;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    font-size: 25px;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 15px 15px 50px #000000;
+}
+.service1 img{
+    height: 300px; 
+    width: 500px;
+    margin: 30px;
+    border-radius: 5px;
+    box-shadow: 15px 15px 10px #043e2e;
+    opacity: 0.7;
+}
+.service1 img:hover{
+    transform: scale(1.05);
+    opacity: 1;
+}
+.service2{
+    background-color: #568a6e2a;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    font-size: 25px;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 15px 15px 50px #000000;
+}
+.service2 img{
+    height: 300px; 
+    width: 500px;
+    margin: 30px;
+    border-radius: 5px;
+    box-shadow: -15px 15px 10px #043e2e;
+    opacity: 0.7;
+}
+.service2 img:hover{
+    transform: scale(1.05);
+    opacity: 1;
+}
+.ser1txt a{
+    font-size: 20px;
+    color: darkred;
+}
+.ser1txt h1{
+    padding: 20px;
+    font-size: 30px;
+    color: darkred;
+}
+.ser2txt a{
+    font-size: 20px;
+    color: darkred;
+}
+.ser2txt h1{
+    padding: 20px;
+    font-size: 30px;
+    color: darkred;
+}
+.ser1txt p{
+    padding: 20px;
+    font-size: 20px;
+}
+.ser2txt p{
+    padding: 20px;
+    font-size: 20px;
+}
+.service1 .ser1txt a:hover{
+    color: red;
+    /* font-size: 21px; */
+}
+.service2 .ser2txt a:hover{
+    color: red;
+    /* font-size: 21px; */
+}
+
+.timing{
+    background-color: #568a6e2a;
+    box-shadow: 10px 10px 50PX black;
+    margin: 50px;
+    padding: 3%;
+    border-radius: 10PX;
+}
+.timing h1{
+    cursor:default;
+    text-decoration:underline;
+    margin: 20px;
+    color: #568A6E;
+}
+.timing th{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #043e2e;
+    font-size: 25px;
+    text-align:center;
+    padding: 20px;
+}
+.timing td{
+    cursor: pointer;
+    text-decoration: wavy;
+    padding: 20px;
+    text-align:center;
+    font-size: 20px;
+}
+.timing th:hover{
+    color: red;
+}
+.timing tr:hover{
+    color: red;
+}
