@@ -2,11 +2,13 @@ name: Deploy PHP Website
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   ftp-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -14,7 +16,8 @@ jobs:
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.ftp.churchoftheword.com }}
-          username: ${{ secrets.churchoftheword }}
-          password: ${{ secrets.churchmedia@123 }}
-          server-dir: ${{ secrets./public_html }}
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.REMOTE_DIR }}
+          dry-run: false
